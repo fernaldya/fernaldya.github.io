@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.skills-container {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+			}
+			.skills-column {
+				flex: 1;
+				min-width: 250px; /* Adjust minimum width as needed */
+				padding: 10px;
+			}
+			.skills-column h4 {
+				font-size: 1.2em;
+				margin-bottom: 0.5em;
+			}
+			.skills-column ul {
+				list-style-type: none; /* Removes the default bullets */
+				padding-left: 0; /* Aligns content to the left */
+				margin-top: 0;
+			}
+			.skills-column ul li {
+				margin-bottom: 0.5em;
+				font-size: 0.9em;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#stack">Tech & Stacks</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic-faw-00.jpeg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi there. I'm <strong>Fernaldy</strong></h1>
+							</header>
+							<p>An aspiring Data Engineer / MLAI Engineer!</p>
+							<a href="https://drive.google.com/drive/folders/1Q2WQSRTrDD2d1-F0gFAge3gP9EGOAl3a?usp=sharing" class="button large scrolly" target="_blank">You can find all my CVs here</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Resume -->
+			<article id="stack" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h3>The languages I primarily work with are</h3>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="image fit"><img src="images/python.png" alt="Python" /></span>
+								<h3>Python</h3>
+								<p>For data-oriented projects and machine learning or AI.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="image fit"><img src="images/sql.png" alt="SQL" /></span>
+								<h3>SQL</h3>
+								<p>Mostly PostgreSQL and MySQL with a bit of NoSQL.</p>
+							</section>
+						</div>
+					</div>
+					<!-- Skills list -->
+					<div class="skills-container">
+						<div class="skills-column">
+							<h4>Skills</h4>
+							<ul>
+								<li>ETL</li>
+								<li>Data & Dimensional Modeling</li>
+								<li>Machine & Deep Learning</li>
+								<li>Data Analysis</li>
+							</ul>
+							<h4>Languages</h4>
+							<ul>
+								<li>Proficient — Python, SQL</li>
+								<li>Basic — R, C++</li>
+							</ul>
+							<ul>
+								<li>Algorithms (Regression, Classification, Clustering)</li>
+								<li>AI (Computer Vision, NLP)</li>
+							</ul>
+						</div>
+						<div class="skills-column">
+							<h4>Development Tools</h4>
+							<ul>
+								<li>Containerization & Virtualization (Docker, Kubernetes, WSL)</li>
+								<li>Cloud & Database Services (AWS S3, Google BigQuery, PostgreSQL, MySQL, NoSQL, MongoDB, Elasticsearch)</li>
+								<li>Workflow Automation & Orchestration (Apache Airflow)</li>
+								<li>Event Streaming & Messaging (Apache Kafka)</li>
+								<li>API Development & Testing (Postman)</li>
+								<li>Development Environments (Visual Studio Code, Jupyter Notebook, Rstudio)</li>
+								<li>Model Deployment (HuggingFace)</li>
+							</ul>
+							<h4>Libraries & Frameworks</h4>
+							<ul>
+								<li>Data Processing (Pandas, Polars, Numpy, Scipy)</li>
+								<li>Data Quality (Great Expectations)</li>
+								<li>Web Development (FastAPI, Flask, Streamlit)</li>
+								<li>Machine Learning (Tensorflow, Keras, Scikit-learn)</li>
+								<li>Feature Engineering (Feature-engine, Imbalanced-learn)</li>
+								<li>Data Visualization (Matplotlib, Seaborn, Plotly, Kibana, Tableau)</li>
+								<li>MLOps (MLflow)</li>
+							</ul>
+						</div>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See some of my works</a>
+					</footer>
+				</div>
+				
+			</article>
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some projects I worked on.</h2>
+						<span style="font-size: smaller;">P.S. You can click the project title to go to the repository.</span>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<article class="box style2">
+								<h3><a href="https://github.com/devinlee14/FTDS-009-HCK-group-002" target="_blank">Feedback to Foresight: Simplifying App Review Sentiment Analysis</a></h3>
+								<p>This collaborative project focused on employing Natural Language Processing (NLP) for sentiment analysis of user feedback from Google Play Store applications. My primary role as a data engineer involved orchestrating the ETL process and contributing to the optimization of the model. The comprehensive workflow of the project encompassed:</p>
+								<ul>
+									<li>Extracting and transforming data from an AWS S3 bucket.</li>
+									<li>Loading the data back into the S3 bucket for the project members to access.</li>
+									<li>Conducting exploratory data analysis to gain insights into the data.</li>
+									<li>Undertaking feature engineering to prepare the data for modeling.</li>
+									<li>Implementing an NLP model to analyze user feedback.</li>
+									<li>Deploying the model on HuggingFace for broader accessibility.</li>
+								</ul>
+								<p>The project resulted in an automated, scalable sentiment analysis model, with potential applications in quality control and early trend detection.</p>
+							</article>							
+						</div>
+						<div class="col-12">
+							<article class="box style2">
+								<h3><a href="https://github.com/fernaldya/SDG7-Indonesia-progress" target="_blank"">Indonesia's SDG7 Progress</a></h3>
+								<p>In this project, I worked with Docker to containerize every step of the ETL pipeline and created visualization with Kibana. The project description entails:</p>
+								<ul>
+									<li>Developed an ETL process using Apache Airflow to aggregate and clean data pertaining to Indonesia’s progress in sustainable energy (SDG7).</li>
+									<li>Focused on containerization using Docker to encapsulate the ETL process, ensuring a streamlined and reproducible workflow.</li>
+									<li>Cleaned and structured large datasets for efficient analysis, pushing the processed data to Elasticsearch for in-depth analysis.</li>
+								</ul>
+								<p>The result of the project showed that Indonesia’s economic growth has not been fully leveraged to boost investment in renewable energy infrastructure.</p>
+							</article>
+						</div>
+						<div class="col-12">
+							<article class="box style2">
+								<h3><a href="https://github.com/fernaldya/jellyfish-species-classification" target="_blank">Jellyfish Species Classification</a></h3>
+								<p>In this project, I created a classification model to perform classification on six jellyfish species. The species include:</p>
+								<ul>
+									<li>Barrel jellyfish</li>
+									<li>Compass jellyfish</li>
+									<li>Mauve Stinger jellyfish</li>
+									<li>Blue jellyfish</li>
+									<li>Lions mane jellyfish</li>
+									<li>Moon jellyfish</li>
+								</ul>
+								<p>Unfortunately, the best model with around 70% accuracy could not be deployed due to its huge file size (around 1+ GB). So the second best model with around 50% accuracy was deployed instead.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>My other projects can be found in my github!</p>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="col-12">
+					<hr />
+					<h3>Find me on ...</h3>
+					<ul class="social">
+						<li><a href="https://www.linkedin.com/in/fernaldy-wirjowerdojo-056a001a2/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/fernaldya" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+					</ul>
+					<p>faw.wirjowerdojo@gmail.com</p>
+					<hr />
+				</div>
+				<footer>
+					<ul id="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
